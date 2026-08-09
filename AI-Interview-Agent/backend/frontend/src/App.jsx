@@ -40,7 +40,7 @@ function App() {
     try {
 
       const response = await fetch(
-        "http://127.0.0.1:8000/api/interview",
+        "https://trispark-project.onrender.com/api/interview",
         {
           method: "POST",
 
@@ -110,7 +110,7 @@ function App() {
     try {
 
       const response = await fetch(
-        "http://127.0.0.1:8000/api/interview",
+        "https://trispark-project.onrender.com/api/interview",
         {
           method: "POST",
 
