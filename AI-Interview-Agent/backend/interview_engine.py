@@ -15,8 +15,8 @@ def load_json(filename):
         return json.load(file)
 
 
-candidates_data = load_json("candidates.json")
-curriculum_data = load_json("curriculum.json")
+candidates_data = load_json("data/candidates.json")
+curriculum_data = load_json("data/curriculum.json")
 
 
 # ---------------------------------------------------------
