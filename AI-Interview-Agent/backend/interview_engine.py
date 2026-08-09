@@ -5,7 +5,7 @@ from typing import Dict, Any
 
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, "data")
+DATA_DIR = os.path.join(BASE_DIR, "Data")
 
 
 def load_json(filename):
@@ -15,8 +15,8 @@ def load_json(filename):
         return json.load(file)
 
 
-candidates_data = load_json("data/candidates.json")
-curriculum_data = load_json("data/curriculum.json")
+candidates_data = load_json("candidates.json")
+curriculum_data = load_json("curriculum.json")
 
 
 # ---------------------------------------------------------
